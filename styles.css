@@ -1,0 +1,51 @@
+
+body {
+    /* background-color:#6aa84f; */
+    background-color: #222;
+    margin: 8px;
+}
+div{
+    position: absolute;
+    top: 25%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: rgba(256, 256, 256, 0.4);
+    font-family: 'Ubuntu Condensed', sans-serif;
+}
+h1 {
+    text-align: center;
+    font-size: 5em;
+    margin: 0px 0px 0px 0px;
+}
+
+span {
+    display:block;
+    text-align: center;
+    height: 2em;
+    margin: 11px 0px 22px 0px;
+
+}
+
+.tinyx {
+    font-size: 0.4em;
+    display: inline;
+    vertical-align: middle;
+    margin: 0px 11px 0px 2px;
+}
+
+p {
+    display:inline-block;
+    position: relative;
+    font-size: 2em;
+    color: rgba(256, 256, 256, 0.2);
+    margin: 0px 0px 0px 0px;
+}
+
+p:hover{
+    text-shadow: 0px 0px rgba(256, 256, 256, 0.3);
+}
+
+p.selected {
+    color: rgba(256, 256, 256, 0.4);
+}
